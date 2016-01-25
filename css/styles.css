@@ -1,14 +1,36 @@
 .jumbotron {
     margin-bottom: 0px;
-    background-image: url(../metalsurface.jpg);
+    background-image: url(../bluearduino.jpg);
     background-position: 0% 25%;
     background-size: cover;
     background-repeat: no-repeat;
-    border: solid #333 5px;
+    border-radius: 0px;
+    padding: 10px;
+    border: solid #333 3px;
 }
 
 p{
   width: 850px;
   text-align: justify;
   text-justify: inter-word;
+}
+
+.entry{
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+a{
+  color: white;
+}
+.jumbotron :hover,
+.jumbotron :focus {
+  color: white;
+  text-decoration: none;
+}
+
+.bottombar {
+  margin: 0 auto;
+  color: gray;
+  font-size: 12px;
 }
